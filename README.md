@@ -1,113 +1,81 @@
-# Assalamu Alaikum, I am Iheb Touati
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=black&size=24&pause=500&width=700&lines=Systems+Architect;Quantitative+Systems+Engineer;Islamic+Finance+Researcher;Tech+Venture+Lead" alt="Typing SVG" />
+# Iheb Touati
 
-
-  <a href="https://github.com/IHEBT-DEV">
-    <img height="40" src="https://img.shields.io/badge/%20%20GitHub%20%20-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/iheb-touati/">
-    <img height="40" src="https://img.shields.io/badge/%20%20LinkedIn%20%20-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="mailto:iheb.touati27@gmail.com">
-    <img height="40" src="https://img.shields.io/badge/%20%20Email%20%20-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-
+**Quantitative Researcher — Islamic Finance**  
+Tunis, Tunisia · [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=13219468) · [LinkedIn](https://www.linkedin.com/in/iheb-touati/) · iheb.touati27@gmail.com  
+ORCID: [0009-0008-6742-5552](https://orcid.org/0009-0008-6742-5552)
 
 ---
 
-## About Me
+## Research — Quantitative Islamic Finance
 
-Deeply principled, execution-focused Systems Architect specializing in high-throughput real-time data pipelines, multi-agent AI topologies, and advanced quantitative research frameworks. Operates transparently as a high-velocity, AI-augmented engineer—spearheading core schema layouts, distributed system logic, and low-level optimization to minimize latency and maximize computational velocity.
+Building a five-paper mathematical infrastructure for AAOIFI-compliant sukuk pricing under the physical probability measure. Pricing under **P** rather than **Q** is a theological requirement: the Islamic principle of *Al-Ghunm bil-Ghurm* (gain accompanies liability) requires investor compensation to be explicitly coupled to genuine risk-bearing.
 
-Driven by a long-term professional vision to build high-integrity, 100% value-aligned digital infrastructure serving the global Muslim Ummah.
+### Published Working Papers (SSRN)
 
----
+**Paper 1** · [SSRN 7485362](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7485362)  
+*Variance Reduction Methods for Ijāra Sukuk Pricing Under Stochastic Profit Rates, Correlated Asset Dynamics, and AAOIFI-Mandated Jump-to-Default Risk: A Monte Carlo Approach*
 
-## 🛠️ Tech Stack
-### Languages & Core
+- Correlated GBM/OU dynamics via Cholesky decomposition
+- Physical default intensity via jump risk premium for incomplete markets
+- Girsanov SDF with path-accumulated stochastic integrals
+- Exact joint MGF control variate derived via Itô isometry: Cov(ln S_T, I_T) in closed form
+- Monte Carlo SE reduction: **−25.34%** on 65,536 paths
 
-<img src="https://skillicons.dev/icons?i=python,typescript,javascript,latex" height="28" alt="Languages " />  `SQL`
-### Frameworks & AI
-<img src="https://skillicons.dev/icons?i=fastapi,nestjs,react" height="28" alt="Languages " /> `LangGraph`  `CrewAI`
- ### Data & Messaging
-<img src="https://skillicons.dev/icons?i=postgresql,mongodb,redis" height="28" alt="Languages " />  `Qdrant (HNSW)`
-### DevOps & Cloud
-<img src="https://skillicons.dev/icons?i=docker,github,linux,aws" height="28" alt="Languages " />  
+**Paper 2** · [SSRN 7485438](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7485438)  
+*Multi-Asset Ijāra Sukuk Pricing Under Correlated GBM Dynamics and Stochastic Profit Rates: A Pooled Asset Framework with Analytical Variance Reduction*
 
+- Full (N+1)-dimensional cross-covariance matrix in closed form via Itô isometry under exact P-measure dynamics
+- Asset drift r_t + λσ coupled step-by-step to stochastic profit rate (Girsanov triangle of drifts satisfied path-by-path)
+- Generalised joint MGF control variate at **100% theoretical efficiency limit** (ρ = −0.635)
+- Formal antithetic variance decomposition: default mirroring contributes **27.84%** of 31.52% total SE reduction
 
----
+### In Progress
 
-## 🔬 Featured Quantitative Research
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>📊 Paper 1: Single-Asset Ijāra Sukuk</h4>
-      <p>🟢 <b><font color="#2ea44f">Status: Published (2026)</font></b> | 📘 <b>Domain: Quant Finance</b></p>
-      A quantitative pricing engine modeling single-asset asset configurations.
-      <ul>
-        <li>Exact joint MGF control variate via Itô isometry</li>
-        <li>Physical-measure Girsanov SDF modeling</li>
-        <li>Monte Carlo SE reduction of −25.34% on 65,536 paths</li>
-      </ul>
-      <p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7485362"><b>[Read on SSRN 7485362]</b></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h4>📊 Paper 2: Multi-Asset Pooled Sukuk</h4>
-      <p>🟢 <b><font color="#2ea44f">Status: Published (2026)</font></b> | 📘 <b>Domain: Stochastic Math</b></p>
-      An analytical variance reduction architecture for pooled assets.
-      <ul>
-        <li>Full (N+1)-dimensional cross-covariance matrix in closed form</li>
-        <li>Generalised joint MGF control variate at 100% efficiency limit</li>
-        <li>Formal antithetic variance decomposition framework</li>
-      </ul>
-      <p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7485438"><b>[Read on SSRN 7485438]</b></a></p>
-    </td>
-  </tr>
-</table>
+| Paper | Topic |
+|-------|-------|
+| Paper 3 | HJM term structure for multi-period Ijāra sukuk under AAOIFI constraints |
+| Paper 4 | Sharīʿah compliance risk as Poisson jump process calibrated from fatwa data |
+| Paper 5 | Portfolio VaR/CVaR for Islamic investment funds with correlated defaults |
 
 ---
 
-## 🚀 High-Impact Technical Systems
+## Public Repositories
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🤖 Competitor Intelligence Microservice</h4>
-      <p>🟡 <b>Status: In Progress</b> | 🟪 <b>Domain: Distributed Systems</b></p>
-      An asynchronous distributed scraping pipeline driving high-throughput data extraction operations.
-      <ul>
-        <li>FastAPI backend orchestrated with Redis Streams</li>
-        <li>Asyncio worker mesh controlling a Playwright browser cluster</li>
-        <li>Short-pointer architecture for high graph serialization velocity</li>
-        <li>Atomic Redis Lua scripts for TOCTOU-safe rate limiting</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🧠 CrewAI Course Generator</h4>
-      <p>🟢 <b>Status: Completed</b> | 🟪 <b>Domain: Agentic AI</b></p>
-      An adaptive, autonomous learning system engineered to orchestrate massive parallel AI agent teams.
-      <ul>
-        <li>20-agent adaptive learning topology via LangGraph state machines</li>
-        <li>Multi-provider LLM token load-balancing layers</li>
-        <li>Quantized HNSW semantic indexing using Qdrant vector DB</li>
-        <li>Configurable schema modeling using raw YAML definitions</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+### Quantitative Finance
+
+**[Variance_reduction_techniques](https://github.com/IHEBT-DEV/Variance_reduction_techniques)**  
+Monte Carlo option pricing with antithetic variates, control variates, and importance sampling. Direct precursor to SSRN Paper 1.
+
+**[Portfolio_management](https://github.com/IHEBT-DEV/Portfolio_management)**  
+Production-grade portfolio risk engine: Modern Portfolio Theory, Single-Index Risk Model, VaR/CVaR, Sharpe/Treynor ratios, Maximum Drawdown. MongoDB/Redis storage, Docker, GitHub Actions CI/CD.
+
+**[Portfolio_managementV1](https://github.com/IHEBT-DEV/Portfolio_managementV1)**  
+Earlier Jupyter notebook version: portfolio diversification analysis with quantitative and financial methods.
+
+### AI & Agentic Systems
+
+**[crewai-course-generator](https://github.com/IHEBT-DEV/crewai-course-generator)**  
+20-agent adaptive learning content generator. FastAPI, YAML-decoupled agent configs, Docker, multi-provider LLM load balancing for zero-cost infrastructure. Built during Vizuara AI bootcamp.
 
 ---
 
-## 🔮 Ongoing Initiatives
+## Technical Stack
 
-* **Research Papers 3–5:** Finalizing HJM term structures, Sharīʿah compliance risk as a Poisson jump process, and portfolio VaR/CVaR systems.
-* **Core Optimization:** Exploring low-level concurrency control mechanisms and distributed execution topologies.
+**Mathematical:** Stochastic calculus (Itô, Girsanov, Cholesky) · OU & GBM processes · Poisson jump processes · MGF · Monte Carlo variance reduction · VaR/CVaR
+
+**Quantitative tools:** Python (NumPy, SciPy, pandas, scipy.optimize) · LaTeX
+
+**Engineering:** TypeScript · NestJS · FastAPI · PostgreSQL · Redis · Docker · WebSocket · AWS · GitHub Actions · LangGraph · CrewAI
 
 ---
 
-<p align="center">
-  <i>May Allah grant barakah in all our beneficial endeavors.</i>
-</p>
+## Background
+
+- **Master 2** in Quantitative Finance & Actuarial Sciences — Université du Mans, France *(Mention Assez Bien)*
+- **Engineering Degree** in Computer Science (Minor: Financial Computing) — ESPRIT Tunisia *(CTI-accredited)*
+- **Analytics Team Lead** at Laevitas (Singapore-registered), Dec 2021 – Oct 2023
+- Foundational knowledge in **Fiqh al-Muamalat** (Islamic commercial jurisprudence)
+
+---
+
+*All research is conducted under the physical probability measure P, consistent with AAOIFI Sharīʿah standards and the Islamic principle of Al-Ghunm bil-Ghurm.*
